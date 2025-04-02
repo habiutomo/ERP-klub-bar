@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  
+  /* Scrollbar styling for dark theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-black/20;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-purple-800/50 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-purple-700/70;
+  }
+}
+
+@layer components {
+  /* Neon text effect for headings */
+  .neon-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400;
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+  }
+  
+  /* Glow effect for buttons */
+  .neon-glow {
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.6);
+  }
+  
+  /* Card styling for nightclub theme */
+  .nightclub-card {
+    @apply bg-black/80 border border-zinc-800 rounded-xl p-6 shadow-lg;
+    box-shadow: 0 4px 20px rgba(168, 85, 247, 0.15);
+  }
+  
+  /* Button styling for nightclub theme */
+  .nightclub-button {
+    @apply bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-500 hover:to-purple-700 text-white font-medium py-2 px-4 rounded-lg transition-all;
+    box-shadow: 0 2px 10px rgba(168, 85, 247, 0.3);
+  }
+  
+  .nightclub-button:hover {
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.5);
+  }
+  
+  /* Input styling for nightclub theme */
+  .nightclub-input {
+    @apply bg-zinc-900/80 border border-zinc-700 text-white rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent;
+  }
+}
