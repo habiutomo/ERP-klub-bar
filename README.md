@@ -77,4 +77,4 @@ Aplikasi ini memiliki desain yang mencerminkan industri klub malam dengan tema g
 
 ## Lisensi
 
-© 2025 NightlifePro. Hak Cipta Dilindungi.
+© habizinnia@gmail.com
