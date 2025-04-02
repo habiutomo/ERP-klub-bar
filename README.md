@@ -2,7 +2,7 @@
 
 NightlifePro adalah sistem manajemen komprehensif yang dirancang khusus untuk industri klub malam dan bar. Aplikasi ini menggabungkan semua aspek penting dari operasi klub/bar dalam satu platform terintegrasi, memungkinkan pemilik dan manajer mengelola bisnis mereka dengan lebih efisien.
 
-![NightlifePro Dashboard](https://i.imgur.com/XGLNbS7.png)
+![NightlifePro Dashboard](1.png)
 
 ## Fitur Utama
 
